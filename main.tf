@@ -1,6 +1,7 @@
 # For POC details,see readme.md
 
 # creating storage account container for storing tfstate file
+# this is not the part of this poc, but to show concept of storage container creation.
 terraform {
   required_providers {
     azurerm = {
@@ -39,7 +40,7 @@ resource "azurerm_storage_container" "tfstate" {
 } 
 
 
-# creating azure infrastructure
+# creating azure infrastructure for POC
 module "resource_group" {
   source   = "./module/resource_group"
   name     = var.resource_group_name
