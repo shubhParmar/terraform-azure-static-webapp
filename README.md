@@ -9,9 +9,9 @@
 
 
 
-### creating storage account container for storing tfstate file
-### this is not the part of this poc, but to show concept of storage container creation.
-### this part will be omitted at the time of init/plan/apply
+* ### creating storage account container for storing tfstate file
+* ### this is not the part of this poc, but to show concept of storage container creation.
+* ### this part will be omitted at the time of init/plan/apply
 ```terraform
 terraform {
   required_providers {
