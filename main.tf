@@ -1,4 +1,4 @@
-# For POC details,see readme.md
+# For POC details,see `readme.md`
 
 # creating azure infrastructure for POC
 module "resource_group" {
