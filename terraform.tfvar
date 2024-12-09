@@ -14,7 +14,3 @@ tfstate_container_name =
 tfstate_file_name_key =
 
 
-azurerm_client-id =
-azurerm_client-secret =
-azurerm_subscription =
-azurerm_tenant =
